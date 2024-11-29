@@ -23,8 +23,8 @@ let regex =
   /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@.#$!%*?&])[A-Za-z\d@.#$!%*?&]{8,15}$/;
 
   export const errorMessages = {
-    ad: "Adiniz en az 4 karakter icermeli",
-    soyad: "Soyadiniz en az 4 karakter icermeli",
+    ad: "Adınız en az 4 karakter içermelidir",
+    soyad: "Soyadınız en az 4 karakter icermelidır",
     email: "Gecerli bir email adresi giriniz",
     password: "En az 8 karakter en az 1 Buyuk Harf en az 1 Kucuk harf  en az 1 sembol ve rakam icermelidir",
 
@@ -106,7 +106,7 @@ export default function Register() {
   };
   return (
     <Card>
-      <CardHeader>Kayit Ol</CardHeader>
+      <CardHeader>Kayıt Ol</CardHeader>
       <CardBody>
 
         <Form onSubmit={handleSubmit}>
