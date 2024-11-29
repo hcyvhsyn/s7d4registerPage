@@ -2,6 +2,7 @@ body {
   background-color: lightblue;
   font-size: 16px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 
@@ -13,7 +14,7 @@ body {
 }
 
 .logo {
-  height: 6em;
+  height: 5em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
